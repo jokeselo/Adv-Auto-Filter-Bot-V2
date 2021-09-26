@@ -147,7 +147,7 @@ async def auto_filter(bot, update):
         if len_result != 1:
             result[0].append(
                 [
-                    InlineKeyboardButton("Next 🔄", callback_data=f"navigate(0|next|{query})")
+                    InlineKeyboardButton("Go To Next Page ▶️", callback_data=f"navigate(0|next|{query})")
                 ]
             )
         
@@ -203,7 +203,7 @@ async def auto_filter(bot, update):
         try:
             await bot.send_message(
                 chat_id = update.chat.id,
-                text=f"Found {(len_results)} Results For Your Query: <code>{query}</code>",
+                text=f"<b>Found {(len_results)} Results For Your Requested Movie</b> : <code>{query}</code>\n\nJoin @botcodesforyou For Bot Updates Etc",
                 reply_markup=reply_markup,
                 parse_mode="html",
                 reply_to_message_id=update.message_id
