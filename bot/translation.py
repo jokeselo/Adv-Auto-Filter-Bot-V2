@@ -5,12 +5,14 @@
 class Translation(object):
     
     START_TEXT = """<b>Hey {}!!</b>
+
 <code>Am Just A Advance Auto Filter Bot.....😉
 Just Add Me To Your Group And Channel And Connect Get Started 🔥</code>
 
 𝖥𝗈𝗋 𝖬𝗈𝗋𝖾 Details Press /help
 
 👲 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : [FNM Bots](https://t.me/fnmbots)
+
 """    
     
     HELP_TEXT = """
