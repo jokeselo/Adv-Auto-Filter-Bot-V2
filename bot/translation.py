@@ -11,7 +11,7 @@ Just Add Me To Your Group And Channel And Connect Get Started 🔥</code>
 
 𝖥𝗈𝗋 𝖬𝗈𝗋𝖾 Details Press /help
 
-👲 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : [FNM Bots](https://t.me/fnmbots)
+👲 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : [FNM Bots](https://t.me/FNM_Bots)
 
 """    
     
