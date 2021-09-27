@@ -52,7 +52,7 @@ async def cb_navg(bot, update: CallbackQuery):
         VERIFY[str(chat_id)] = admin_list
     
     if not ((user_id == ruser_id) or (user_id in admin_list)): # Checks if user is same as requested user or is admin
-        await update.answer("It's Not For You, Sorry\n\nIf Need Then Type It In This Group Then You Can Control ;)",show_alert=True)
+        await update.answer("It's Not For You, Sorry 😔\n\nIf Need Then Type <code>{query}</code>  In This Group To Get Thet Movie, Then You Can Control Pages)",show_alert=True)
         return
 
 
