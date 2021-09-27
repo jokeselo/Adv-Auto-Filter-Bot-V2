@@ -48,12 +48,12 @@ async def start(bot, update):
 
     buttons = [[
         InlineKeyboardButton('Updates Channel 🥳', url='https://t.me/FNM_Bots'),
-        InlineKeyboardButton('Support Group 🖥️', url ='https://t.me/ codingdiscuss')
+        InlineKeyboardButton('Support Group 🖥️', url ='https://t.me/codingdiscuss')
     ],[
         InlineKeyboardButton('About 🤡', callback_data="about"),
         InlineKeyboardButton('Help 🛠️', callback_data="help")
     ],[InlineKeyboardButton('Updates Channel 🥳', url='https://t.me/FNM_Bots'),
-        InlineKeyboardButton('Support Group 🖥️', url ='https://t.me/ codingdiscuss')
+        InlineKeyboardButton('Support Group 🖥️', url ='https://t.me/codingdiscuss')
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
