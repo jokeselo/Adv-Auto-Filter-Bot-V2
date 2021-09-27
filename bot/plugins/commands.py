@@ -51,10 +51,11 @@ async def start(bot, update):
         InlineKeyboardButton('Support Group 🖥️', url ='https://t.me/codingdiscuss')
     ],[
         InlineKeyboardButton('About 🤡', callback_data="about"),
-        InlineKeyboardButton('Help 🛠️', callback_data="help")
-    ],[InlineKeyboardButton('Updates Channel 🥳', url='https://t.me/FNM_Bots'),
-        InlineKeyboardButton('Support Group 🖥️', url ='https://t.me/codingdiscuss')
-    ]]
+        InlineKeyboardButton('Promo', callback_data="help")
+    ],[InlineKeyboardButton('Developer', url='https://t.me/mhdfajisn'),
+        InlineKeyboardButton('Movie Group', url ='https://t.me/cc_chat')
+    ],[InlineKeyboardButton('Help 🛠️', callback_data="help")
+     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
