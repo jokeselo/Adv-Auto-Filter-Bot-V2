@@ -1,6 +1,6 @@
 from pyrogram import Client ,filters
 import os
-from helper.database import getid
+from bot.database import getid
 ADMIN = int(os.environ.get("ADMIN", 1613808789))
 
 
